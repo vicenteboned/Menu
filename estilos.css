@@ -8,7 +8,6 @@ body {
 	font-size:22px;
 	line-height: 32px;
 	color: #022b3a;
-	word-wrap:break-word !important;
 	font-family: 'raleway', sans-serif;
 	}
 
@@ -36,8 +35,8 @@ a {
 h1 {
 	margin-top: 100px;
 	text-align:center;
-	font-size:60px;
-	font-family: 'raleway', 'serif';
+	font-size:76px;
+	font-family: "Alfa Slab One", cursive;
 	}
 
 #container {
@@ -49,7 +48,7 @@ p {
 }
 
 nav {
-	margin: 50px 0;
+	margin: 0px 0;
 	background-color: #1f7a8c;
 }
 
@@ -75,7 +74,7 @@ nav a {
 }
 
 nav a:hover {
-	background-color: #000000;
+	background-color: #022b3a;
 
 }
 
@@ -83,15 +82,13 @@ nav a:hover {
 nav ul ul {
 	display: none;
 	position: absolute;
-	top: 60px; /* the height of the main nav */
+	top: 60px; 
 }
 
-/* Display Dropdowns on Hover */
 nav ul li:hover > ul {
 	display:inherit;
 }
 
-/* Fisrt Tier Dropdown */
 nav ul ul li {
 	width:170px;
 	float:none;
@@ -99,13 +96,7 @@ nav ul ul li {
 position: relative;}
 
 /* Second, Third and more Tiers	*/
-nav ul ul ul li {
-	float: right;
-	top:-60px;
-	left:170px;
+
 }
 
-
-/* Change this in order to change the Dropdown symbol */
-li > a:after { content:  ' +'; }
 li > a:only-child:after { content: ''; }
