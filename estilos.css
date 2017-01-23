@@ -49,7 +49,7 @@ p {
 
 nav {
 	margin: 0px 0;
-	background-color: #1f7a8c;
+	background-color: #FF5632;
 }
 
 nav ul {
@@ -61,7 +61,7 @@ nav ul {
 
 nav ul li {
 	display:inline-block;
-	background-color: #1f7a8c;
+	background-color: #FF5632;
 	}
 
 nav a {
@@ -82,7 +82,7 @@ nav a:hover {
 nav ul ul {
 	display: none;
 	position: absolute;
-	top: 60px; 
+	top: 60px;
 }
 
 nav ul li:hover > ul {
